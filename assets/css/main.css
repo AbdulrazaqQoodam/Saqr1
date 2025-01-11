@@ -1,1089 +1,2290 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>فندقنا - الموقع الرسمي</title>
-  <meta name="description" content="مرحبًا بكم في موقع فندقنا الرسمي. استمتعوا بأفضل الخدمات والإقامات الفاخرة.">
-  <meta name="keywords" content="فندق، خدمات فندقية، إقامة فاخرة، سياحة، استجمام">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-
-</head>
-
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center ms-auto ms-xl-0">
-        
-        <h1 class="sitename">صقر</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">الرئيسية</a></li>
-          <li><a href="#about">من نحن</a></li>
-          <li><a href="#features">مميزاتنا</a></li>
-          <li><a href="#services">الخدمات</a></li>
-          <li><a href="#pricing">الأسعار</a></li>
-         
-          <li><a href="#contact">تواصل معنا</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="index.html#about" style="color: white;">ابدأ الآن</a>
-
-    </div>
-  </header>
-  
-  <main class="main">
-
-    
- <!-- قسم البطل -->
- <main class="main">
-
-    
-  <section id="hero" class="hero section dark-background">
-  
-    <div id="hero-carousel" data-bs-interval="3000" class="container carousel carousel-fade" data-bs-ride="carousel">
-  
-      <!-- شريحة 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">مرحبًا بكم في فندق صقر</h2>
-          <p class="animate__animated animate__fadeInUp">
-            تجربة فريدة من الفخامة والراحة في قلب المدينة. استمتعوا بخدمات عالمية وأجواء لا مثيل لها.
-          </p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">تعرف على المزيد</a>
-        </div>
-      </div>
-  
-      <!-- شريحة 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">رفاهية وإقامة مثالية</h2>
-          <p class="animate__animated animate__fadeInUp">
-            نقدم لكم أجنحة وغرف مجهزة بكل وسائل الراحة العصرية لتلبية احتياجاتكم.
-          </p>
-          <a href="#rooms" class="btn-get-started animate__animated animate__fadeInUp scrollto">استعرض الغرف</a>
-        </div>
-      </div>
-  
-      <!-- شريحة 3 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">خدمات متميزة</h2>
-          <p class="animate__animated animate__fadeInUp">
-            استمتعوا بتجربة استثنائية مع خدماتنا المخصصة واهتمامنا بأدق التفاصيل.
-          </p>
-          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">اكتشف الخدمات</a>
-        </div>
-      </div>
-  
-      <!-- أزرار التحكم -->
-      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-  
-    </div>
-  
-    <!-- أمواج زخرفية -->
-    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
-      <defs>
-        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-      </defs>
-      <g class="wave1">
-        <use xlink:href="#wave-path" x="50" y="3"></use>
-      </g>
-      <g class="wave2">
-        <use xlink:href="#wave-path" x="50" y="0"></use>
-      </g>
-      <g class="wave3">
-        <use xlink:href="#wave-path" x="50" y="9"></use>
-      </g>
-    </svg>
-  
-    
-  
-  </section>
-  
-
-
-
-
-<!-- قسم التعريف -->
-<section id="about" class="about section">
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row gy-4 align-items-center justify-content-between">
-
-      <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
-        <span class="about-meta">المزيد عنا</span>
-        <h2 class="about-title">عبدالحميد صقر - رؤيتنا ورسالتنا</h2>
-        <p class="about-description">
-          في "عبدالحميد صقر"، نسعى لتقديم خدمات متميزة تتجاوز توقعات عملائنا. نهدف إلى تحقيق تجربة لا تُنسى من خلال الجمع بين الابتكار والجودة والتفاني في العمل.
-        </p>
-
-        <div class="row feature-list-wrapper">
-          <div class="col-md-6">
-            <ul class="feature-list">
-              <li><i class="bi bi-check-circle-fill"></i> خدمات متكاملة وشاملة</li>
-              <li><i class="bi bi-check-circle-fill"></i> فريق عمل محترف</li>
-              <li><i class="bi bi-check-circle-fill"></i> التزامنا برضا العملاء</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="feature-list">
-              <li><i class="bi bi-check-circle-fill"></i> حلول مبتكرة ومخصصة</li>
-              <li><i class="bi bi-check-circle-fill"></i> جودة بلا تنازل</li>
-              <li><i class="bi bi-check-circle-fill"></i> دعم مستمر على مدار الساعة</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="info-wrapper">
-          <div class="row gy-4">
-            <div class="col-lg-5">
-              <div class="profile d-flex align-items-center gap-3">
-                <img src="./media/no image.jpg" alt="Profile Picture" class="profile-image">
-                <div>
-                  <h4 class="profile-name">أحمد صقر</h4>
-                  <p class="profile-position">المؤسس والمدير التنفيذي</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-7">
-              <div class="contact-info d-flex align-items-center gap-2">
-                <i class="bi bi-telephone-fill"></i>
-                <div>
-                  <p class="contact-label">تواصل معنا في أي وقت</p>
-                  <p class="contact-number"> 560-026-689 966+</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="image-wrapper">
-          <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-            <img src="./media/more1.jpg" alt="صورة تعريفية" class="img-fluid main-image rounded-4">
-            <img src="./media/more2.jpg" alt="فريق العمل" class="img-fluid small-image rounded-4">
-          </div>
-          <div class="experience-badge floating">
-            <h3>15+ <span>عامًا</span></h3>
-            <p>من الخبرة في تقديم خدمات متميزة</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-    </section><!-- /About Section -->
-<!-- قسم المزايا -->
-<section id="features" class="features section">
-
-  <!-- عنوان القسم -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>المزايا</h2>
-    <p>تقديم أفضل الحلول والخدمات التي تلبي احتياجاتك بشكل فعال ومتميز.</p>
-  </div><!-- نهاية عنوان القسم -->
-
-  <div class="container">
-
-    <div class="d-flex justify-content-center">
-
-      <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
-
-        <li class="nav-item">
-          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-            <h4>ميزة 1</h4>
-          </a>
-        </li><!-- نهاية عنصر التبويب -->
-
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-            <h4>ميزة 2</h4>
-          </a>
-        </li><!-- نهاية عنصر التبويب -->
-
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-            <h4>ميزة 3</h4>
-          </a>
-        </li><!-- نهاية عنصر التبويب -->
-
-      </ul>
-
-    </div>
-
-    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-      <div class="tab-pane fade active show" id="features-tab-1">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-            <h3>ميزة فريدة 1</h3>
-            <p class="fst-italic">
-              نوفر خدمات مبتكرة تلبي احتياجات العملاء بأعلى مستويات الجودة والتميز.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>تقديم حلول متكاملة لمتطلباتك اليومية.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>ضمان الأداء الفائق مع نتائج مضمونة.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>توفير دعم فني متواصل لتلبية احتياجاتك بسرعة وفعالية.</span></li>
-            </ul>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-           
-            <img src="./media/6.jpg" alt="ميزة 1" class="img-fluid" style="height: 450px; object-fit: cover;">
-
-
-          </div>
-        </div>
-      </div><!-- نهاية محتوى التبويب -->
-
-      <div class="tab-pane fade" id="features-tab-2">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-            <h3>ميزة فريدة 2</h3>
-            <p class="fst-italic">
-              نسعى لتقديم خدمات استثنائية تهدف إلى تحقيق رضا العملاء الكامل.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>تكنولوجيا حديثة لتعزيز الكفاءة.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>تصميم مخصص يلبي احتياجات العملاء.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>حلول مرنة للتكيف مع مختلف الظروف والمتطلبات.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>توفير الدعم اللازم بسرعة وفعالية.</span></li>
-            </ul>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="./media/more1.jpg"  alt="ميزة 2" class="img-fluid" style="height: 450px; object-fit: cover;">
-          </div>
-        </div>
-      </div><!-- نهاية محتوى التبويب -->
-
-      <div class="tab-pane fade" id="features-tab-3">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-            <h3>ميزة فريدة 3</h3>
-            <ul>
-
-              <li><i class="bi bi-check2-all"></i> <span>خدمات مبتكرة تعزز من رضا العملاء.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>تصميم عملي يناسب جميع احتياجاتك.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>التزام كامل بالجودة والمواعيد.</span></li>
-            </ul>
-            <p class="fst-italic">
-              نحن هنا لتلبية احتياجاتك بأعلى مستوى من الاحترافية والجودة.
-            </p>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="./media/5.jpg" alt="ميزة 3" class="img-fluid" style="height: 450px; object-fit: cover;">
-          </div>
-        </div>
-      </div><!-- نهاية محتوى التبويب -->
-
-    </div>
-
-  </div>
-
-</section><!-- نهاية قسم المزايا -->
-
-
- <!-- Features Cards Section -->
-<section id="features-cards" class="features-cards section">
-
-  <div class="container">
-
-    <div class="row gy-4">
-
-      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-        <div class="feature-box orange">
-          <i class="bi bi-award"></i>
-          <h4>الخدمات الفندقية</h4>
-          <p>نقدم خدمات فندقية متميزة تشمل غرف مريحة، خدمة غرف على مدار الساعة، ومرافق متكاملة لضمان إقامة مريحة للضيوف.</p>
-        </div>
-      </div><!-- End Feature Box-->
-
-      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-        <div class="feature-box blue">
-          <i class="bi bi-patch-check"></i>
-          <h4>مبادرات المسؤولية الاجتماعية</h4>
-          <p>نلتزم بتقديم مبادرات مستدامة لدعم المجتمع المحلي، من خلال برامج تعليمية وخدمية تهدف إلى تحسين جودة الحياة.</p>
-        </div>
-      </div><!-- End Feature Box-->
-
-      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-        <div class="feature-box green">
-          <i class="bi bi-sunrise"></i>
-          <h4>إنجازاتنا</h4>
-          <p>حصلنا على العديد من الجوائز في مجال الضيافة على مر السنين، بما في ذلك جوائز أفضل خدمة وأفضل منتجع سياحي.</p>
-        </div>
-      </div><!-- End Feature Box-->
-
-      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-        <div class="feature-box red">
-          <i class="bi bi-shield-check"></i>
-          <h4>سلامة وأمان الضيوف</h4>
-          <p>نولي سلامة ضيوفنا أهمية كبيرة من خلال تطبيق إجراءات صارمة لضمان بيئة آمنة وخالية من المخاطر طوال فترة إقامتهم.</p>
-        </div>
-      </div><!-- End Feature Box-->
-
-    </div>
-
-  </div>
-
-</section><!-- /Features Cards Section -->
-
-<!-- Features 2 Section -->
-<section id="features-2" class="features-2 section">
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row align-items-center">
-
-      <div class="col-lg-4">
-
-        <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
-          <div class="d-flex align-items-center justify-content-end gap-4">
-            <div class="feature-content">
-              <h3>موقع متميز</h3>
-              <p>فندقنا يقع في موقع استراتيجي يتيح للضيوف الوصول بسهولة إلى أبرز المعالم السياحية والمناطق التجارية.</p>
-            </div>
-            <div class="feature-icon flex-shrink-0">
-              <i class="bi bi-map"></i>
-            </div>
-          </div>
-        </div><!-- End .feature-item -->
-
-        <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
-          <div class="d-flex align-items-center justify-content-end gap-4">
-            <div class="feature-content">
-              <h3>غرف فاخرة</h3>
-              <p>تحتوي الغرف على أحدث المرافق لتوفير الراحة والخصوصية التامة للضيوف، مع إطلالات ساحرة على المدينة أو البحر.</p>
-            </div>
-            <div class="feature-icon flex-shrink-0">
-              <i class="bi bi-house-door"></i>
-            </div>
-          </div>
-        </div><!-- End .feature-item -->
-
-        <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
-          <div class="d-flex align-items-center justify-content-end gap-4">
-            <div class="feature-content">
-              <h3>خدمة العملاء</h3>
-              <p>نحن نقدم خدمة عملاء على مدار الساعة لضمان أن جميع احتياجات ضيوفنا يتم تلبيتها بسرعة وكفاءة.</p>
-            </div>
-            <div class="feature-icon flex-shrink-0">
-              <i class="bi bi-headset"></i>
-            </div>
-          </div>
-        </div><!-- End .feature-item -->
-
-      </div>
-
-
-      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-        <div class="phone-mockup text-center">
-          <video autoplay muted loop playsinline class="img-fluid">
-            <source src="./media/V3.mp4" type="video/mp4">
-            متصفحك لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-      </div>
-      <!-- End Phone Mockup -->
-
-      <div class="col-lg-4">
-
-        <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
-          <div class="d-flex align-items-center gap-4">
-            <div class="feature-icon flex-shrink-0">
-              <i class="bi bi-building"></i>
-            </div>
-            <div class="feature-content">
-              <h3>مرافق متكاملة</h3>
-              <p>يتمتع الفندق بمرافق متكاملة تشمل مطاعم، مسابح، صالات رياضية، ومرافق للاجتماعات والفعاليات.</p>
-            </div>
-          </div>
-        </div><!-- End .feature-item -->
-
-        <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
-          <div class="d-flex align-items-center gap-4">
-            <div class="feature-icon flex-shrink-0">
-              <i class="bi bi-person-check"></i>
-            </div>
-            <div class="feature-content">
-              <h3>حجوزات سهلة</h3>
-              <p>من خلال نظام حجزنا المتطور، يمكن للضيوف إجراء حجوزاتهم بسهولة عبر الإنترنت أو من خلال تطبيق الهاتف المحمول.</p>
-            </div>
-          </div>
-        </div><!-- End .feature-item -->
-
-        <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
-          <div class="d-flex align-items-center gap-4">
-            <div class="feature-icon flex-shrink-0">
-              <i class="bi bi-credit-card"></i>
-            </div>
-            <div class="feature-content">
-              <h3>خيارات الدفع المرنة</h3>
-              <p>نقدم خيارات دفع مرنة وآمنة لراحة ضيوفنا، سواء كانت بطاقات ائتمان أو الدفع عبر الإنترنت.</p>
-            </div>
-          </div>
-        </div><!-- End .feature-item -->
-
-      </div>
-    </div>
-
-  </div>
-<!-- Call To Action Section -->
-<section id="call-to-action" class="call-to-action section" style="background-color: #f0f8ff;">
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row content justify-content-center align-items-center position-relative">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="display-4 mb-4" style="color: #2e3a59;">انضموا إلينا في المبادرة الجديدة لتحسين تجربة الضيوف</h2>
-        <p class="mb-4" style="color: #556b8b;">نحن في [اسم الفندق] نحرص على تقديم أفضل خدمة لضيوفنا الكرام. انضموا إلى مبادرتنا الجديدة لتجربة فندقية لا مثيل لها تهدف إلى تعزيز الراحة والرفاهية للجميع.</p>
-        <a href="#" class="btn btn-cta" style="background-color: #4CAF50; color: white;">مزيد من التفاصيل</a>
-      </div>
-
-      <!-- Abstract Background Elements -->
-      <div class="shape shape-1" style="top: 0;">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path d="M47.1,-57.1C59.9,-45.6,68.5,-28.9,71.4,-10.9C74.2,7.1,71.3,26.3,61.5,41.1C51.7,55.9,35,66.2,16.9,69.2C-1.3,72.2,-21,67.8,-36.9,57.9C-52.8,48,-64.9,32.6,-69.1,15.1C-73.3,-2.4,-69.5,-22,-59.4,-37.1C-49.3,-52.2,-32.8,-62.9,-15.7,-64.9C1.5,-67,34.3,-68.5,47.1,-57.1Z" transform="translate(100 100)"></path>
-        </svg>
-      </div>
-
-      <div class="shape shape-2" style="top: 10%;">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path d="M41.3,-49.1C54.4,-39.3,66.6,-27.2,71.1,-12.1C75.6,3,72.4,20.9,63.3,34.4C54.2,47.9,39.2,56.9,23.2,62.3C7.1,67.7,-10,69.4,-24.8,64.1C-39.7,58.8,-52.3,46.5,-60.1,31.5C-67.9,16.4,-70.9,-1.4,-66.3,-16.6C-61.8,-31.8,-49.7,-44.3,-36.3,-54C-22.9,-63.7,-8.2,-70.6,3.6,-75.1C15.4,-79.6,28.2,-58.9,41.3,-49.1Z" transform="translate(100 100)"></path>
-        </svg>
-      </div>
-
-      <!-- Dot Pattern Groups -->
-      <div class="dots dots-1" style="top: 30%;">
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-            <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-          </pattern>
-          <rect width="100" height="100" fill="url(#dot-pattern)"></rect>
-        </svg>
-      </div>
-
-      <div class="dots dots-2" style="top: 50%;">
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <pattern id="dot-pattern-2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-            <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-          </pattern>
-          <rect width="100" height="100" fill="url(#dot-pattern-2)"></rect>
-        </svg>
-      </div>
-
-      <div class="shape shape-3" style="top: 80%;">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path d="M43.3,-57.1C57.4,-46.5,71.1,-32.6,75.3,-16.2C79.5,0.2,74.2,19.1,65.1,35.3C56,51.5,43.1,65,27.4,71.7C11.7,78.4,-6.8,78.3,-23.9,72.4C-41,66.5,-56.7,54.8,-65.4,39.2C-74.1,23.6,-75.8,4,-71.7,-13.2C-67.6,-30.4,-57.7,-45.2,-44.3,-56.1C-30.9,-67,-15.5,-74,0.7,-74.9C16.8,-75.8,33.7,-70.7,43.3,-57.1Z" transform="translate(100 100)"></path>
-        </svg>
-      </div>
-    </div>
-
-  </div>
-
-</section><!-- /Call To Action Section -->
-
-<!-- Clients Section -->
-<section id="clients" class="clients section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="swiper init-swiper">
-      <script type="application/json" class="swiper-config">
-        {
-          "loop": true,
-          "speed": 600,
-          "autoplay": {
-            "delay": 5000
-          },
-          "slidesPerView": "auto",
-          "pagination": {
-            "el": ".swiper-pagination",
-            "type": "bullets",
-            "clickable": true
-          },
-          "breakpoints": {
-            "320": {
-              "slidesPerView": 2,
-              "spaceBetween": 40
-            },
-            "480": {
-              "slidesPerView": 3,
-              "spaceBetween": 60
-            },
-            "640": {
-              "slidesPerView": 4,
-              "spaceBetween": 80
-            },
-            "992": {
-              "slidesPerView": 6,
-              "spaceBetween": 120
-            }
-          }
-        }
-      </script>
-      <div class="swiper-wrapper align-items-center">
-        <!-- استبدال صور العملاء بشعارات الفنادق أو المبادرات -->
-        <div class="swiper-slide"><img src="./media/1.jpg" class="img-fluid" alt="Hotel 1"></div>
-        <div class="swiper-slide"><img src="./media/2.jpg"class="img-fluid" alt="Hotel 2"></div>
-        <div class="swiper-slide"><img src="./media/3.jpg" class="img-fluid" alt="Hotel 3"></div>
-        <div class="swiper-slide"><img src="./media/4.jpg" class="img-fluid" alt="Hotel 4"></div>
-        <div class="swiper-slide"><img src="./media/5.jpg"class="img-fluid" alt="Hotel 5"></div>
-        <div class="swiper-slide"><img src="./media/6.jpg"class="img-fluid" alt="Hotel 6"></div>
-        <div class="swiper-slide"><img src="./media/7.jpg"class="img-fluid" alt="Hotel 7"></div>
-        <div class="swiper-slide"><img src="./media/8.jpg" class="img-fluid" alt="Hotel 8"></div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-</section><!-- /Clients Section -->
-
-
-<!-- قسم الإحصائيات -->
-<!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row gy-4">
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item text-center w-100 h-100">
-          <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-          <p>العملاء</p>
-        </div>
-      </div><!-- نهاية عنصر الإحصائية -->
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item text-center w-100 h-100">
-          <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-          <p>المشاريع</p>
-        </div>
-      </div><!-- نهاية عنصر الإحصائية -->
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item text-center w-100 h-100">
-          <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-          <p>ساعات الدعم</p>
-        </div>
-      </div><!-- نهاية عنصر الإحصائية -->
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item text-center w-100 h-100">
-          <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-          <p>العمال</p>
-        </div>
-      </div><!-- نهاية عنصر الإحصائية -->
-
-    </div>
-
-  </div>
-
-</section><!-- /قسم الإحصائيات -->
-<!-- قسم الخدمات -->
-<section id="services" class="services section light-background" dir="rtl">
-
-  <!-- عنوان القسم -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>خدماتنا</h2>
-    <p>نحن نقدم مجموعة متنوعة من الخدمات المتميزة والفريدة لضمان تجربة لا تُنسى لزوارنا، بالإضافة إلى المبادرات التي تساهم في تعزيز الراحة والرفاهية في فندقنا.</p>
-  </div><!-- نهاية عنوان القسم -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row g-4">
-
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-card d-flex">
-          <div class="icon flex-shrink-0">
-            <i class="bi bi-house-door"></i>
-          </div>
-          <div>
-            <h3>الإقامة الفاخرة</h3>
-            <p>نحن نقدم تجربة إقامة استثنائية في غرف وأجنحة مجهزة بأعلى معايير الراحة، لضمان أن يشعر ضيوفنا وكأنهم في منزلهم.</p>
-            <a href="service-details.html" class="read-more">قراءة المزيد <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div><!-- نهاية بطاقة الخدمة -->
-
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-card d-flex">
-          <div class="icon flex-shrink-0">
-            <i class="bi bi-utensils"></i>
-
-
-
-
-          </div>
-          <div>
-            <h3>خدمات الطعام والمشروبات</h3>
-            <p>نقدم لضيوفنا مجموعة من خيارات الطعام الراقية والمشروبات المميزة التي تعد بتجربة طعام رائعة، مع التركيز على المأكولات المحلية والعالمية.</p>
-            <a href="service-details.html" class="read-more">قراءة المزيد <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div><!-- نهاية بطاقة الخدمة -->
-
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-card d-flex">
-          <div class="icon flex-shrink-0">
-            <i class="bi bi-heart"></i>
-          </div>
-          <div>
-            <h3>المبادرات الاجتماعية</h3>
-            <p>نحن ملتزمون بالمساهمة في المجتمع المحلي من خلال المبادرات الاجتماعية والبيئية التي تعزز من رفاهية المجتمع وتساعد في تطويره.</p>
-            <a href="service-details.html" class="read-more">قراءة المزيد <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div><!-- نهاية بطاقة الخدمة -->
-
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-card d-flex">
-          <div class="icon flex-shrink-0">
-            <i class="bi bi-umbrella"></i>
-
-
-          </div>
-          <div>
-            <h3>منتجع صحي واستجمام</h3>
-            <p>يوفر فندقنا منتجعًا صحيًا متكاملًا يقدم علاجات استجمامية وعلاجية لتحسين الصحة والراحة النفسية للضيوف.</p>
-            <a href="service-details.html" class="read-more">قراءة المزيد <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div><!-- نهاية بطاقة الخدمة -->
-
-    </div>
-
-  </div>
-
-</section><!-- /قسم الخدمات -->
-
-<!-- قسم الأسعار -->
-<section id="pricing" class="pricing section light-background" dir="rtl">
-
-  <!-- عنوان القسم -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>أسعارنا</h2>
-    <p>نقدم لك خيارات متنوعة للإقامة وخدماتنا التي تلبي احتياجاتك وتناسب ميزانيتك. اختر الأنسب لك من بين خططنا المختلفة.</p>
-  </div><!-- نهاية عنوان القسم -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row g-4 justify-content-center">
-
-      <!-- خطة أساسية -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="pricing-card">
-          <h3>الخطة الأساسية</h3>
-          <div class="price">
-            <span class="currency">ر.س</span>
-            <span class="amount">300</span>
-            <span class="period">/ ليلة</span>
-          </div>
-          <p class="description">إقامة مريحة في غرف مجهزة بأساسيات الراحة والهدوء، مثالية للمسافرين الباحثين عن إقامة قصيرة.</p>
-
-          <h4>المزايا المتوفرة:</h4>
-          <ul class="features-list">
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              خدمة الواي فاي المجانية
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              وجبة إفطار مجانية
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              خدمة الغرف على مدار الساعة
-            </li>
-          </ul>
-
-          <a href="#" class="btn btn-primary">
-            احجز الآن
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- خطة قياسية -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="pricing-card popular">
-          <div class="popular-badge">الأكثر شهرة</div>
-          <h3>الخطة القياسية</h3>
-          <div class="price">
-            <span class="currency">ر.س</span>
-            <span class="amount">600</span>
-            <span class="period">/ ليلة</span>
-          </div>
-          <p class="description">إقامة فاخرة في غرف واسعة مع المزيد من المرافق والراحة. مناسبة للمسافرين الذين يبحثون عن تجربة أفضل.</p>
-
-          <h4>المزايا المتوفرة:</h4>
-          <ul class="features-list">
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              خدمة الواي فاي عالية السرعة
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              إفطار فاخر
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              دخول مجاني إلى المنتجع الصحي
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              خدمة نقل من وإلى المطار
-            </li>
-          </ul>
-
-          <a href="#" class="btn btn-light">
-            احجز الآن
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- خطة متميزة -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="pricing-card">
-          <h3>الخطة المتميزة</h3>
-          <div class="price">
-            <span class="currency">ر.س</span>
-            <span class="amount">900</span>
-            <span class="period">/ ليلة</span>
-          </div>
-          <p class="description">أفضل تجربة إقامة مع جميع المرافق الفاخرة التي تقدم أعلى مستويات الراحة والرفاهية. مثالية للمسافرين الراغبين في التمتع بإقامة لا تُنسى.</p>
-
-          <h4>المزايا المتوفرة:</h4>
-          <ul class="features-list">
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              خدمة الواي فاي المجانية في جميع أنحاء الفندق
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              وجبات طوال اليوم في المطاعم الراقية
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              استشارة طبية مجانية
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              دخول غير محدود إلى المنتجع الصحي والسبا
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              تنظيم رحلات سياحية وحجز تذاكر
-            </li>
-          </ul>
-
-          <a href="#" class="btn btn-primary">
-            احجز الآن
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-</section><!-- /قسم الأسعار -->
-
-    <!-- Faq Section -->
-  <!-- Faq Section -->
-<section class="faq-9 faq section light-background" id="faq">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5" data-aos="fade-up">
-        <h2 class="faq-title">هل لديك سؤال؟ تحقق من الأسئلة المتكررة</h2>
-        <p class="faq-description">إذا كنت بحاجة إلى مزيد من المعلومات حول إقامتك، يمكنك العثور على الإجابات للأسئلة الأكثر شيوعًا أدناه.</p>
-        <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
-          <!-- SVG Arrow -->
-        </div>
-      </div>
-
-      <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
-        <div class="faq-container">
-          <!-- FAQ Item 1 -->
-          <div class="faq-item faq-active">
-            <h3>كيف يمكنني إجراء حجز في الفندق؟</h3>
-            <div class="faq-content">
-              <p>يمكنك إجراء حجز عبر موقعنا الإلكتروني أو عن طريق الاتصال بمكتب الاستقبال مباشرة. تأكد من تحديد تواريخ الإقامة المفضلة لديك وعدد الغرف المطلوبة.</p>
-            </div>
-            <i class="faq-toggle bi bi-chevron-right"></i>
-          </div><!-- End Faq item-->
-
-          <!-- FAQ Item 2 -->
-          <div class="faq-item">
-            <h3>هل يتوفر الفندق على خدمة الواي فاي المجانية؟</h3>
-            <div class="faq-content">
-              <p>نعم، يتوفر الواي فاي المجاني في جميع غرف الفندق والمناطق العامة.</p>
-            </div>
-            <i class="faq-toggle bi bi-chevron-right"></i>
-          </div><!-- End Faq item-->
-
-          <!-- FAQ Item 3 -->
-          <div class="faq-item">
-            <h3>هل يمكنني إلغاء حجز الغرفة؟</h3>
-            <div class="faq-content">
-              <p>نعم، يمكنك إلغاء الحجز حسب سياسة الإلغاء الخاصة بالفندق. يرجى التحقق من الشروط الخاصة بحجزك لتجنب الرسوم الإضافية.</p>
-            </div>
-            <i class="faq-toggle bi bi-chevron-right"></i>
-          </div><!-- End Faq item-->
-
-          <!-- Add more FAQs here -->
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- /Faq Section -->
-
-    <!-- /Faq Section -->
-
-    <!-- Call To Action 2 Section -->
-   <!-- Call To Action 2 Section -->
-<section id="call-to-action-2" class="call-to-action-2 section dark-background">
-  <div class="container">
-    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-      <div class="col-xl-10">
-        <div class="text-center">
-          <h3>هل أنت مستعد لحجز إقامتك؟</h3>
-          <p>لا تفوت فرصة الاستمتاع بإقامة مريحة في فندقنا. احجز الآن واستمتع بأفضل العروض والخصومات!</p>
-          <a class="cta-btn" href="/حجز">احجز الآن</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- /Call To Action 2 Section -->
-<!-- /Call To Action 2 Section -->
-<!-- Contact Section -->
-<section id="contact" class="contact section light-background">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>اتصل بنا</h2>
-    <p>إذا كانت لديك أي استفسارات أو تحتاج إلى المزيد من المعلومات حول إقامتك في فندقنا، نحن هنا للمساعدة!</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row g-4 g-lg-5">
-      <div class="col-lg-5">
-        <div class="info-box" data-aos="fade-up" data-aos-delay="200">
-          <h3>معلومات الاتصال</h3>
-          <p>نحن هنا للإجابة على أسئلتك ومساعدتك في تخطيط إقامتك في فندقنا المميز. لا تتردد في التواصل معنا.</p>
-
-          <div class="info-item" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <i class="bi bi-geo-alt"></i>
-            </div>
-            <div class="content">
-              <h4>موقعنا</h4>
-              <p>شارع 108، منطقة آدم</p>
-              <p>مكة المكرمة 12345</p>
-            </div>
-          </div>
-
-          <div class="info-item" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon-box">
-              <i class="bi bi-telephone"></i>
-            </div>
-            <div class="content">
-              <h4>رقم الهاتف</h4>
-              <p>560-026-689 966+</p>
-              <p>560-026-689 966+</p>
-            </div>
-          </div>
-
-          <div class="info-item" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon-box">
-              <i class="bi bi-envelope"></i>
-            </div>
-            <div class="content">
-              <h4>البريد الإلكتروني</h4>
-              <p>contact@saqr.group</p>
-              <p>contact@saqr.group</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-7">
-        <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
-          <h3>تواصل معنا</h3>
-          <p>إذا كنت بحاجة إلى المزيد من المعلومات أو ترغب في حجز غرفتك، يرجى ملء النموذج أدناه وسنتواصل معك في أقرب وقت ممكن.</p>
-
-          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-            <div class="row gy-4">
-
-              <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="اسمك" required="">
-              </div>
-
-              <div class="col-md-6 ">
-                <input type="email" class="form-control" name="email" placeholder="البريد الإلكتروني" required="">
-              </div>
-
-              <div class="col-12">
-                <input type="text" class="form-control" name="subject" placeholder="الموضوع" required="">
-              </div>
-
-              <div class="col-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="رسالتك" required=""></textarea>
-              </div>
-
-              <div class="col-12 text-center">
-                <div class="loading">جاري التحميل...</div>
-                <div class="error-message"></div>
-                <div class="sent-message">تم إرسال رسالتك بنجاح. شكرًا لك!</div>
-
-                <button type="submit" class="btn">إرسال الرسالة</button>
-              </div>
-
-            </div>
-          </form>
-
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-</section><!-- /Contact Section -->
-
-  </main>
-  <footer id="footer" class="footer">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <!-- قسم المعلومات الأساسية عن الفندق -->
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename"> فندق صقر </span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>شارع الملك عبد الله</p>
-            <p>مكة المكرمة  535022</p>
-            <p class="mt-3"><strong>الهاتف:</strong> <span>560-026-689 966+</span></p>
-            <p><strong>البريد الإلكتروني:</strong> <span>contact@saqr.group</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-  
-        <!-- روابط مفيدة -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>روابط مفيدة</h4>
-          <ul>
-            <li><a href="#">الصفحة الرئيسية</a></li>
-            <li><a href="#">عن الفندق</a></li>
-            <li><a href="#">خدماتنا</a></li>
-            <li><a href="#">الشروط والأحكام</a></li>
-            <li><a href="#">سياسة الخصوصية</a></li>
-          </ul>
-        </div>
-  
-        <!-- خدماتنا -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>خدماتنا</h4>
-          <ul>
-            <li><a href="#">غرف مريحة</a></li>
-            <li><a href="#">خدمة الإنترنت</a></li>
-            <li><a href="#">خدمات الطيران</a></li>
-            <li><a href="#">خدمات النقل</a></li>
-            <li><a href="#">مرافق للاجتماعات</a></li>
-          </ul>
-        </div>
-  
-        <!-- قسم إضافي للمعلومات أو العروض الخاصة -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>عروضنا الخاصة</h4>
-          <ul>
-            <li><a href="#">عروض حجز الغرف</a></li>
-            <li><a href="#">عروض العطلات</a></li>
-            <li><a href="#">خصومات موسمية</a></li>
-            <li><a href="#">حجوزات خاصة</a></li>
-          </ul>
-        </div>
-  
-        <!-- قسم التواصل معنا -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>تواصل معنا</h4>
-          <ul>
-            <li><a href="#">استفسارات الحجز</a></li>
-            <li><a href="#">الموقع</a></li>
-            <li><a href="#">الدعم الفني</a></li>
-          </ul>
-        </div>
-  
-      </div>
-    </div>
-  
-    <div class="container copyright text-center mt-4">
-      <p>© <span>حقوق الطبع والنشر</span> <strong class="px-1 sitename">فندق الصقر </strong> <span>جميع الحقوق محفوظة</span></p>
-    </div>
-  
-  </footer>
-  
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
- 
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  
-  </body>
-  
-  </html>
-  
+/**
+* Template Name: iLanding
+* Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
+* Updated: Nov 12 2024 with Bootstrap v5.3.3
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# Font & Color Variables
+# Help: https://bootstrapmade.com/color-system/
+--------------------------------------------------------------*/
+/* Fonts */
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Nunito",  sans-serif;
+  --nav-font: "Inter",  sans-serif;
+}
+
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #2d465e; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #0d83fd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
+
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+:root {
+  --nav-color: #212529;  /* The default color of the main navmenu links */
+  --nav-hover-color: #0d83fd; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #0d83fd; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+.light-background {
+  --background-color: #f3f9ff;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #0d83fd;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #409dfd;
+  --contrast-color: #ffffff;
+}
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+/* PHP Email Form Messages
+------------------------------*/
+.php-email-form .error-message {
+  display: none;
+  background: #df1529;
+  color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .sent-message {
+  display: none;
+  color: #ffffff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .loading {
+  display: none;
+  background: var(--surface-color);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid var(--accent-color);
+  border-top-color: var(--surface-color);
+  animation: php-email-form-loading 1s linear infinite;
+}
+
+@keyframes php-email-form-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Global Header
+--------------------------------------------------------------*/
+.header {
+  --background-color: rgba(255, 255, 255, 0);
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 20px 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.header .header-container {
+  background: var(--surface-color);
+  border-radius: 50px;
+  padding: 5px 25px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.scrolled .header .header-container {
+  background: color-mix(in srgb, var(--surface-color), transparent 5%);
+}
+
+.header .logo {
+  line-height: 1;
+  padding-left: 5px;
+}
+
+.header .logo img {
+  max-height: 36px;
+  margin-right: 8px;
+}
+
+.header .logo h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+  color: var(--heading-color);
+}
+
+.header .btn-getstarted,
+.header .btn-getstarted:focus {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-size: 14px;
+  padding: 8px 20px;
+  margin: 0 0 0 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.header .btn-getstarted:hover,
+.header .btn-getstarted:focus:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding-top: 10px;
+  }
+
+  .header .header-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 5px 10px 15px;
+  }
+
+  .header .logo {
+    order: 1;
+  }
+
+  .header .btn-getstarted {
+    order: 2;
+    margin: 0 10px 0 0;
+    padding: 6px 15px;
+  }
+
+  .header .navmenu {
+    order: 3;
+  }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Navmenu - Desktop */
+@media (min-width: 1200px) {
+  .navmenu {
+    padding: 0;
+  }
+
+  .navmenu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navmenu li {
+    position: relative;
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    color: var(--nav-color);
+    padding: 18px 15px;
+    font-size: 16px;
+    font-family: var(--nav-font);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navmenu a i,
+  .navmenu a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    transition: 0.3s;
+  }
+
+  .navmenu li:last-child a {
+    padding-right: 0;
+  }
+
+  .navmenu li:hover>a,
+  .navmenu .active,
+  .navmenu .active:focus {
+    color:var(--accent-color);
+  }
+
+  .navmenu .dropdown ul {
+    margin: 0;
+    padding: 10px 0;
+    background: var(--nav-dropdown-background-color);
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    left: 14px;
+    top: 130%;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 4px;
+    z-index: 99;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .navmenu .dropdown ul li {
+    min-width: 200px;
+  }
+
+  .navmenu .dropdown ul a {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    color: var(--nav-dropdown-color);
+  }
+
+  .navmenu .dropdown ul a i {
+    font-size: 12px;
+  }
+
+  .navmenu .dropdown ul a:hover,
+  .navmenu .dropdown ul .active:hover,
+  .navmenu .dropdown ul li:hover>a {
+    color: var(--nav-dropdown-hover-color);
+  }
+
+  .navmenu .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+
+  .navmenu .dropdown .dropdown ul {
+    top: 0;
+    left: -90%;
+    visibility: hidden;
+  }
+
+  .navmenu .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: -100%;
+    visibility: visible;
+  }
+}
+
+/* Navmenu - Mobile */
+@media (max-width: 1199px) {
+  .mobile-nav-toggle {
+    color: var(--nav-color);
+    font-size: 28px;
+    line-height: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .navmenu {
+    padding: 0;
+    z-index: 9997;
+  }
+
+  .navmenu ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    inset: 60px 20px 20px 20px;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 6px;
+    background-color: var(--nav-mobile-background-color);
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    color: var(--nav-dropdown-color);
+    padding: 10px 20px;
+    font-family: var(--nav-font);
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navmenu a i,
+  .navmenu a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  }
+
+  .navmenu a i:hover,
+  .navmenu a:focus i:hover {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+  }
+
+  .navmenu a:hover,
+  .navmenu .active,
+  .navmenu .active:focus {
+    color: var(--nav-dropdown-hover-color);
+  }
+
+  .navmenu .active i,
+  .navmenu .active:focus i {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    transform: rotate(180deg);
+  }
+
+  .navmenu .dropdown ul {
+    position: static;
+    display: none;
+    z-index: 99;
+    padding: 10px 0;
+    margin: 10px 20px;
+    background-color: var(--nav-dropdown-background-color);
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navmenu .dropdown ul ul {
+    background-color: rgba(33, 37, 41, 0.1);
+  }
+
+  .navmenu .dropdown>.dropdown-active {
+    display: block;
+    background-color: rgba(33, 37, 41, 0.03);
+  }
+
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+
+  .mobile-nav-active .mobile-nav-toggle {
+    color: #fff;
+    position: absolute;
+    font-size: 32px;
+    top: 15px;
+    right: 15px;
+    margin-right: 0;
+    z-index: 9999;
+  }
+
+  .mobile-nav-active .navmenu {
+    position: fixed;
+    overflow: hidden;
+    inset: 0;
+    background: rgba(33, 37, 41, 0.8);
+    transition: 0.3s;
+  }
+
+  .mobile-nav-active .navmenu>ul {
+    display: block;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Footer
+--------------------------------------------------------------*/
+.footer {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-size: 14px;
+  position: relative;
+}
+
+.footer .footer-top {
+  padding-top: 50px;
+}
+
+.footer .footer-about .logo {
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.footer .footer-about .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-about .logo span {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer .footer-about p {
+  font-size: 14px;
+  font-family: var(--heading-font);
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  font-size: 16px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  padding-right: 2px;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-links ul a:hover {
+  color: var(--accent-color);
+}
+
+.footer .footer-contact p {
+  margin-bottom: 5px;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.footer .copyright p {
+  margin-bottom: 0;
+}
+
+.footer .credits {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: -15px;
+  z-index: 99999;
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: var(--contrast-color);
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Page Titles & Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 170px 0 80px 0;
+  text-align: center;
+  position: relative;
+}
+
+.page-title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.page-title .breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.page-title .breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.page-title .breadcrumbs ol li+li::before {
+  content: "/";
+  display: inline-block;
+  padding-right: 10px;
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  scroll-margin-top: 90px;
+  overflow: clip;
+}
+
+@media (max-width: 1199px) {
+
+  section,
+  .section {
+    scroll-margin-top: 66px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(0deg, var(--background-color) 0%, color-mix(in srgb, var(--background-color) 90%, white 10%) 100%);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.hero .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  min-height: 75vh;
+  padding-top: 60px;
+}
+
+.hero h2 {
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero h2 span {
+  text-decoration: underline;
+}
+
+.hero p {
+  max-width: 80%;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+}
+
+.hero .carousel-control-prev,
+.hero .carousel-control-next {
+  width: 10%;
+}
+
+.hero .carousel-control-next-icon,
+.hero .carousel-control-prev-icon {
+  background: none;
+  font-size: 48px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+}
+
+.hero .btn-get-started {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  animation-delay: 0.8s;
+  color: var(--default-color);
+  border: 2px solid #ffffff;
+}
+
+.hero .btn-get-started:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .hero p {
+    max-width: 60%;
+  }
+
+  .hero .carousel-control-prev,
+  .hero .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero .carousel-container {
+    min-height: 90vh;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+}
+
+.hero .hero-waves {
+  display: block;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.hero .wave1 use {
+  animation: move-forever1 10s linear infinite;
+  animation-delay: -2s;
+  fill: var(--default-color);
+  opacity: 0.6;
+}
+
+.hero .wave2 use {
+  animation: move-forever2 8s linear infinite;
+  animation-delay: -2s;
+  fill: var(--default-color);
+  opacity: 0.4;
+}
+
+.hero .wave3 use {
+  animation: move-forever3 6s linear infinite;
+  animation-delay: -2s;
+  fill: var(--default-color);
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background-color: var(--background-color);
+  transition: all 0.6s ease-out;
+  width: 100%;
+  height: 100vh;
+}
+
+#preloader:before,
+#preloader:after {
+  content: "";
+  position: absolute;
+  border: 4px solid var(--accent-color);
+  border-radius: 50%;
+  animation: animate-preloader 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+#preloader:after {
+  animation-delay: -0.5s;
+}
+
+@keyframes animate-preloader {
+  0% {
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 5px);
+    left: calc(50% - 5px);
+    opacity: 1;
+  }
+
+  100% {
+    width: 72px;
+    height: 72px;
+    top: calc(50% - 36px);
+    left: calc(50% - 36px);
+    opacity: 0;
+  }
+}
+
+/*------
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about .about-meta {
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.about .about-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .about .about-title {
+    font-size: 2rem;
+  }
+}
+
+.about .about-description {
+  margin-bottom: 2rem;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.about .feature-list-wrapper {
+  margin-bottom: 2rem;
+}
+
+.about .feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about .feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.about .feature-list li i {
+  color: var(--accent-color);
+  font-size: 1.25rem;
+}
+
+.about .profile .profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about .profile .profile-name {
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.about .profile .profile-position {
+  color: var(--accent-color);
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.about .contact-info {
+  padding: 1rem 1.5rem;
+  background-color: var(--surface-color);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+}
+
+.about .contact-info i {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+}
+
+.about .contact-info .contact-label {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.about .contact-info .contact-number {
+  font-weight: 600;
+  margin: 0;
+}
+
+.about .image-wrapper {
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .about .image-wrapper {
+    padding-left: 0;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .about .image-wrapper .images {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .about .image-wrapper .main-image {
+    margin-left: 0;
+  }
+}
+
+.about .image-wrapper .small-image {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  width: 45%;
+  border: 8px solid var(--surface-color);
+}
+
+@media (max-width: 992px) {
+  .about .image-wrapper .small-image {
+    position: static;
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+  }
+}
+
+.about .image-wrapper .experience-badge {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  min-width: 200px;
+  animation: experience-float 3s ease-in-out infinite;
+}
+
+@media (max-width: 992px) {
+  .about .image-wrapper .experience-badge {
+    position: static;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+
+.about .image-wrapper .experience-badge h3 {
+  color: var(--contrast-color);
+  font-size: 2.5rem;
+  margin: 0;
+  line-height: 0.5;
+}
+
+.about .image-wrapper .experience-badge h3 span {
+  font-size: 1rem;
+  display: inline-block;
+  margin-left: 0.25rem;
+}
+
+.about .image-wrapper .experience-badge p {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+}
+
+@keyframes experience-float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+.features .nav-tabs {
+  border: 0;
+  background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 6px;
+  width: auto;
+}
+
+.features .nav-item {
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+
+.features .nav-item:last-child {
+  padding-right: 0;
+}
+
+.features .nav-link {
+  background-color: none;
+  color: var(--heading-color);
+  padding: 10px 30px;
+  transition: 0.3s;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+  margin: 0;
+}
+
+@media (max-width: 468px) {
+  .features .nav-link {
+    padding: 8px 20px;
+  }
+}
+
+.features .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.features .nav-link h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.features .nav-link:hover {
+  border-color: color-mix(in srgb, #ffffff, transparent 80%);
+}
+
+.features .nav-link:hover h4 {
+  color: #ffffff;
+}
+
+.features .nav-link.active {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.features .nav-link.active h4 {
+  color: #ffffff;
+}
+
+.features .tab-content {
+  margin-top: 30px;
+}
+
+.features .tab-pane h3 {
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.features .tab-pane h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--accent-color);
+  /* left: 0; */
+  bottom: 0;
+}
+
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .tab-pane ul li {
+  padding-top: 10px;
+}
+
+.features .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--accent-color);
+}
+
+.features .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Features Cards Section
+--------------------------------------------------------------*/
+.features-cards {
+  --default-color: #555;
+  --heading-color: #333;
+}
+
+.features-cards .feature-box {
+  height: 100%;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+
+.features-cards .feature-box i {
+  font-size: 44px;
+  display: inline-block;
+  line-height: 0;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.features-cards .feature-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.features-cards .feature-box p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.features-cards .feature-box.orange {
+  background-color: #fff3e2;
+}
+
+.features-cards .feature-box.orange i {
+  color: #edb86e;
+}
+
+.features-cards .feature-box.blue {
+  background-color: #deedfd;
+}
+
+.features-cards .feature-box.blue i {
+  color: #20a5f8;
+}
+
+.features-cards .feature-box.green {
+  background-color: #d5f1e4;
+}
+
+.features-cards .feature-box.green i {
+  color: #48c88a;
+}
+
+.features-cards .feature-box.red {
+  background-color: #fdeded;
+}
+
+.features-cards .feature-box.red i {
+  color: #f28484;
+}
+
+/*--------------------------------------------------------------
+# Features 2 Section
+--------------------------------------------------------------*/
+.features-2 .feature-item .feature-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 92%);
+}
+
+.features-2 .feature-item .feature-icon i {
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+.features-2 .feature-item .feature-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.features-2 .feature-item .feature-content p {
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.features-2 .phone-mockup {
+  position: relative;
+  padding: 30px 0;
+}
+
+.features-2 .phone-mockup img {
+  max-width: 300px;
+  height: auto;
+  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+}
+
+@media (max-width: 991.98px) {
+  .features-2 .feature-item {
+    text-align: center !important;
+    margin-bottom: 2rem;
+  }
+
+  .features-2 .feature-item .d-flex {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center !important;
+  }
+
+  .features-2 .phone-mockup {
+    margin: 3rem 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Call To Action Section
+--------------------------------------------------------------*/
+.call-to-action .container {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+}
+
+.call-to-action .content h2,
+.call-to-action .content p {
+  color: var(--contrast-color);
+  position: relative;
+  z-index: 2;
+}
+
+.call-to-action .btn-cta {
+  background-color: color-mix(in srgb, var(--contrast-color) 15%, transparent);
+  color: var(--contrast-color);
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  border: 2px solid var(--contrast-color);
+  position: relative;
+  z-index: 2;
+}
+
+.call-to-action .btn-cta:hover {
+  background-color: var(--contrast-color);
+  color: var(--accent-color);
+}
+
+.call-to-action .shape {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.call-to-action .shape svg {
+  width: 100%;
+  height: 100%;
+}
+
+.call-to-action .shape svg path {
+  fill: color-mix(in srgb, var(--contrast-color) 50%, transparent);
+}
+
+.call-to-action .shape-1 {
+  width: 300px;
+  height: 300px;
+  top: -100px;
+  right: -50px;
+  opacity: 0.1;
+  transform: rotate(45deg);
+  animation: shapes-float 3s ease-in-out infinite;
+}
+
+.call-to-action .shape-2 {
+  width: 200px;
+  height: 200px;
+  bottom: -50px;
+  left: -50px;
+  opacity: 0.15;
+  transform: rotate(-15deg);
+  animation: shapes-float 4s ease-in-out infinite;
+}
+
+.call-to-action .shape-3 {
+  width: 150px;
+  height: 150px;
+  top: 20%;
+  right: 15%;
+  opacity: 0.08;
+  transform: rotate(15deg);
+}
+
+.call-to-action .dots {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  color: var(--contrast-color);
+}
+
+.call-to-action .dots svg {
+  width: 100%;
+  height: 100%;
+}
+
+.call-to-action .dots-1 {
+  width: 200px;
+  height: 200px;
+  top: -30px;
+  left: 10%;
+  opacity: 0.1;
+  transform: rotate(15deg);
+  animation: shapes-float 4s ease-in-out infinite;
+}
+
+.call-to-action .dots-2 {
+  width: 150px;
+  height: 150px;
+  bottom: 20px;
+  right: 15%;
+  opacity: 0.15;
+  transform: rotate(-10deg);
+}
+
+@keyframes shapes-float {
+
+  0%,
+  100% {
+    transform: scale(0.8) rotate(45deg) translateY(0);
+  }
+
+  50% {
+    transform: scale(0.8) rotate(45deg) translateY(-20px);
+  }
+}
+
+@media (max-width: 992px) {
+  .call-to-action .container {
+    padding: 3rem 1.5rem;
+  }
+
+  .call-to-action .shape-1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .call-to-action .shape-2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .call-to-action .shape-3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .call-to-action .dots-1 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .call-to-action .dots-2 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .call-to-action .dots-3 {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  .call-to-action .container {
+    border-radius: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients .swiper-slide img {
+  /* opacity: 0.5; */
+  transition: 0.3s;
+  /* filter: grayscale(100); */
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.clients .swiper-wrapper {
+  height: auto;
+}
+
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+.testimonials .testimonial-item {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  position: relative;
+  height: 100%;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50px;
+  border: 6px solid var(--background-color);
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0;
+}
+
+.testimonials .testimonial-item .stars {
+  margin: 10px 0;
+}
+
+.testimonials .testimonial-item .stars i {
+  color: #ffc107;
+  margin: 0 1px;
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+  color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  font-size: 26px;
+  line-height: 0;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+  transform: scale(-1, -1);
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Stats Section
+--------------------------------------------------------------*/
+.stats .stats-item {
+  padding: 30px;
+  width: 100%;
+}
+
+.stats .stats-item span {
+  color: var(--heading-color);
+  font-size: 48px;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.stats .stats-item span:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.stats .stats-item p {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  padding: 0;
+  margin: 0;
+  font-family: var(--heading-font);
+  font-weight: 500;
+}
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .service-card {
+  height: 100%;
+  padding: 30px;
+  background: var(--surface-color);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.services .service-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.services .service-card:hover .icon {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.services .service-card:hover .read-more {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+.services .service-card .icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: var(--accent-color);
+  font-size: 28px;
+  transition: all 0.3s ease;
+  line-height: 1;
+}
+
+.services .service-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.services .service-card p {
+  margin-bottom: 25px;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.services .service-card .read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.services .service-card .read-more i {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.services .service-card .read-more:hover i {
+  transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Pricing Section
+--------------------------------------------------------------*/
+.pricing .pricing-card {
+  height: 100%;
+  padding: 2rem;
+  background: var(--surface-color);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.pricing .pricing-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pricing .pricing-card.popular {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.pricing .pricing-card.popular h3,
+.pricing .pricing-card.popular h4 {
+  color: var(--contrast-color);
+}
+
+.pricing .pricing-card.popular .price .currency,
+.pricing .pricing-card.popular .price .amount,
+.pricing .pricing-card.popular .price .period {
+  color: var(--contrast-color);
+}
+
+.pricing .pricing-card.popular .features-list li {
+  color: var(--contrast-color);
+}
+
+.pricing .pricing-card.popular .features-list li i {
+  color: var(--contrast-color);
+}
+
+.pricing .pricing-card.popular .btn-light {
+  background: var(--contrast-color);
+  color: var(--accent-color);
+}
+
+.pricing .pricing-card.popular .btn-light:hover {
+  background: color-mix(in srgb, var(--contrast-color), transparent 10%);
+}
+
+.pricing .pricing-card .popular-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--contrast-color);
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.pricing .pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.pricing .pricing-card .price {
+  margin-bottom: 1.5rem;
+}
+
+.pricing .pricing-card .price .currency {
+  font-size: 1.5rem;
+  font-weight: 600;
+  vertical-align: top;
+  line-height: 1;
+}
+
+.pricing .pricing-card .price .amount {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pricing .pricing-card .price .period {
+  font-size: 1rem;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.pricing .pricing-card .description {
+  margin-bottom: 2rem;
+  font-size: 0.975rem;
+}
+
+.pricing .pricing-card h4 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.pricing .pricing-card .features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.pricing .pricing-card .features-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pricing .pricing-card .features-list li i {
+  color: var(--accent-color);
+  margin-right: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.pricing .pricing-card .btn {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.pricing .pricing-card .btn.btn-primary {
+  background: var(--accent-color);
+  border: none;
+  color: var(--contrast-color);
+}
+
+.pricing .pricing-card .btn.btn-primary:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+/*--------------------------------------------------------------
+# Faq Section
+--------------------------------------------------------------*/
+.faq .faq-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.faq .faq-description {
+  font-size: 1rem;
+  color: var(--default-color);
+  margin-bottom: 2rem;
+}
+
+.faq .faq-arrow {
+  color: var(--accent-color);
+}
+
+.faq .faq-container .faq-item {
+  background-color: var(--surface-color);
+  position: relative;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq .faq-container .faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq .faq-container .faq-item h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 30px 0 0;
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.faq .faq-container .faq-item h3 .num {
+  color: var(--accent-color);
+  padding-right: 5px;
+}
+
+.faq .faq-container .faq-item h3:hover {
+  color: var(--accent-color);
+}
+
+.faq .faq-container .faq-item .faq-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.faq .faq-container .faq-item .faq-content p {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.faq .faq-container .faq-item .faq-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.faq .faq-container .faq-item .faq-toggle:hover {
+  color: var(--accent-color);
+}
+
+.faq .faq-container .faq-active h3 {
+  color: var(--accent-color);
+}
+
+.faq .faq-container .faq-active .faq-content {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  opacity: 1;
+  padding-top: 10px;
+}
+
+.faq .faq-container .faq-active .faq-toggle {
+  transform: rotate(90deg);
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Call To Action 2 Section
+--------------------------------------------------------------*/
+.call-to-action-2 {
+  padding: 80px 0;
+}
+
+.call-to-action-2 .container {
+  position: relative;
+  z-index: 3;
+}
+
+.call-to-action-2 h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--default-color);
+}
+
+.call-to-action-2 p {
+  color: var(--default-color);
+}
+
+.call-to-action-2 .cta-btn {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid color-mix(in srgb, var(--contrast-color), transparent 30%);
+  color: var(--contrast-color);
+}
+
+.call-to-action-2 .cta-btn:hover {
+  border-color: var(--contrast-color);
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact .info-box {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 3rem;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.contact .info-box h3 {
+  color: var(--contrast-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .contact .info-box h3 {
+    font-size: 1.75rem;
+  }
+}
+
+.contact .info-box p {
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.contact .info-box a {
+  color: var(--contrast-color);
+}
+
+@media (max-width: 992px) {
+  .contact .info-box {
+    padding: 1.5rem;
+  }
+}
+
+.contact .info-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact .info-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact .info-item .icon-box {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: color-mix(in srgb, var(--contrast-color), transparent 85%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+
+.contact .info-item .icon-box i {
+  font-size: 1.5rem;
+  color: var(--contrast-color);
+}
+
+.contact .info-item:hover .icon-box {
+  background-color: color-mix(in srgb, var(--contrast-color), transparent 70%);
+}
+
+.contact .info-item .content h4 {
+  color: var(--contrast-color);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.contact .info-item .content p {
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.contact .info-item .content p:last-child {
+  margin-bottom: 0;
+}
+
+.contact .contact-form {
+  background-color: var(--surface-color);
+  padding: 3rem;
+  border-radius: 1rem;
+  height: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 992px) {
+  .contact .contact-form {
+    padding: 1.5rem;
+  }
+}
+
+.contact .contact-form h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .contact .contact-form h3 {
+    font-size: 1.75rem;
+  }
+}
+
+.contact .contact-form p {
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  margin-bottom: 2rem;
+}
+
+.contact .contact-form .form-control,
+.contact .contact-form .form-select {
+  padding: 0.875rem 1.25rem;
+  border-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  border-radius: 0.5rem;
+  background-color: color-mix(in srgb, var(--surface-color) 90%, white 5%);
+  color: var(--default-color);
+}
+
+.contact .contact-form .form-control:focus,
+.contact .contact-form .form-select:focus {
+  box-shadow: none;
+  border-color: var(--accent-color);
+}
+
+.contact .contact-form .form-control::placeholder,
+.contact .contact-form .form-select::placeholder {
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+}
+
+.contact .contact-form .btn {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.3s;
+}
+
+.contact .contact-form .btn i {
+  font-size: 1.25rem;
+}
+
+.contact .contact-form .btn:hover {
+  background-color: color-mix(in srgb, var(--accent-color), var(--contrast-color) 20%);
+}
+
+/*--------------------------------------------------------------
+# Service Details Section
+--------------------------------------------------------------*/
+.service-details .service-box {
+  background-color: var(--surface-color);
+  padding: 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-details .service-box+.service-box {
+  margin-top: 30px;
+}
+
+.service-details .service-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 92%);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.service-details .services-list {
+  background-color: var(--surface-color);
+}
+
+.service-details .services-list a {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.service-details .services-list a:first-child {
+  margin-top: 0;
+}
+
+.service-details .services-list a i {
+  font-size: 16px;
+  margin-right: 8px;
+  color: var(--accent-color);
+}
+
+.service-details .services-list a.active {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+
+.service-details .services-list a.active i {
+  color: var(--contrast-color);
+}
+
+.service-details .services-list a:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+  color: var(--accent-color);
+}
+
+.service-details .download-catalog a {
+  color: var(--default-color);
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  transition: 0.3s;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.service-details .download-catalog a:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.service-details .download-catalog a:last-child {
+  padding-bottom: 0;
+}
+
+.service-details .download-catalog a i {
+  font-size: 24px;
+  margin-right: 8px;
+  color: var(--accent-color);
+}
+
+.service-details .download-catalog a:hover {
+  color: var(--accent-color);
+}
+
+.service-details .help-box {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  margin-top: 30px;
+  padding: 30px 15px;
+}
+
+.service-details .help-box .help-icon {
+  font-size: 48px;
+}
+
+.service-details .help-box h4,
+.service-details .help-box a {
+  color: var(--contrast-color);
+}
+
+.service-details .services-img {
+  margin-bottom: 20px;
+}
+
+.service-details h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.service-details p {
+  font-size: 15px;
+}
+
+.service-details ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.service-details ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.service-details ul i {
+  font-size: 20px;
+  margin-right: 8px;
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Starter Section Section
+--------------------------------------------------------------*/
+.starter-section {
+  /* Add your styles here */
+}
