@@ -134,6 +134,92 @@
   </section>
   
 
+ <!-- قسم معرض الصور -->
+ <section id="photo-gallery" class="gallery section">
+
+  <!-- عنوان القسم -->
+  <div class="container section-title" data-aos="fade-up">
+      <h2>معرض الصور</h2>
+      <p>استمتع بمشاهدة أبرز لحظاتنا وأعمالنا المميزة مع عملائنا الكرام.</p>
+  </div><!-- نهاية عنوان القسم -->
+  <!-- قسم عرض الصور -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="swiper init-swiper">
+          <!-- صور العرض -->
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                  <img src="./media/2.jpg" alt="صورة مميزة" class="img-fluid">
+              </div>
+
+              <div class="swiper-slide">
+                  <img src="./media/3.jpg" alt="صورة مميزة" class="img-fluid">
+              </div>
+
+              <div class="swiper-slide">
+                  <img src="./media/4.jpg" alt="صورة مميزة" class="img-fluid">
+              </div>
+
+              <div class="swiper-slide">
+                  <img src="./media/5.jpg" alt="صورة مميزة" class="img-fluid">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./media/6.jpg" alt="صورة مميزة" class="img-fluid">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./media/7.jpg" alt="صورة مميزة" class="img-fluid">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./media/8.jpg" alt="صورة مميزة" class="img-fluid">
+              </div>
+
+          </div><!-- نهاية صور العرض -->
+          <!-- أزرار التنقل -->
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+      </div><!-- نهاية قسم الصور -->
+
+  </div><!-- نهاية الحاوية -->
+
+</section><!-- /قسم معرض الصور -->
+ <!-- إضافة كود JavaScript لتهيئة Swiper -->
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+      var swiper = new Swiper('.init-swiper', {
+          loop: true,
+          speed: 600,
+          autoplay: {
+              delay: 3000,
+          },
+          slidesPerView: 3,
+          spaceBetween: 20,
+          breakpoints: {
+              640: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+              },
+              768: {
+                  slidesPerView: 2,
+                  spaceBetween: 15,
+              },
+              1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+              },
+          },
+          pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+          },
+          navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+          },
+      });
+  });
+</script>
 
 
 
@@ -520,58 +606,6 @@
 
 </section><!-- /Call To Action Section -->
 
-<!-- Clients Section -->
-<section id="clients" class="clients section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="swiper init-swiper">
-      <script type="application/json" class="swiper-config">
-        {
-          "loop": true,
-          "speed": 600,
-          "autoplay": {
-            "delay": 5000
-          },
-          "slidesPerView": "auto",
-          "pagination": {
-            "el": ".swiper-pagination",
-            "type": "bullets",
-            "clickable": true
-          },
-          "breakpoints": {
-            "320": {
-              "slidesPerView": 2,
-              "spaceBetween": 40
-            },
-            "480": {
-              "slidesPerView": 3,
-              "spaceBetween": 60
-            },
-            "640": {
-              "slidesPerView": 4,
-              "spaceBetween": 80
-            },
-            "992": {
-              "slidesPerView": 6,
-              "spaceBetween": 120
-            }
-          }
-        }
-      </script>
-      <div class="swiper-wrapper align-items-center">
-        <!-- استبدال صور العملاء بشعارات الفنادق أو المبادرات -->
-        <div class="swiper-slide"><img src="./media/1.jpg" class="img-fluid" alt="Hotel 1"></div>
-        <div class="swiper-slide"><img src="./media/2.jpg"class="img-fluid" alt="Hotel 2"></div>
-        <div class="swiper-slide"><img src="./media/3.jpg" class="img-fluid" alt="Hotel 3"></div>
-        <div class="swiper-slide"><img src="./media/4.jpg" class="img-fluid" alt="Hotel 4"></div>
-        <div class="swiper-slide"><img src="./media/5.jpg"class="img-fluid" alt="Hotel 5"></div>
-        <div class="swiper-slide"><img src="./media/6.jpg"class="img-fluid" alt="Hotel 6"></div>
-        <div class="swiper-slide"><img src="./media/7.jpg"class="img-fluid" alt="Hotel 7"></div>
-        <div class="swiper-slide"><img src="./media/8.jpg" class="img-fluid" alt="Hotel 8"></div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-</section><!-- /Clients Section -->
 
 
 <!-- قسم الإحصائيات -->
